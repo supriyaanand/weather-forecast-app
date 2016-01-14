@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="action_settings">Settings</string>
+    <string name="street_address">Street</string>
+    <string name="city">City</string>
+    <string name="search">Search</string>
+    <string name="clear">Clear</string>
+    <string name="heading">Forecast Search</string>
+    <string name="edit_message">Forecast Search</string>
+    <string name="degree_label">Degree</string>
+    <string name="state_label">State</string>
+    <string name="degree_celsius">Celsius</string>
+    <string name="degree_fahrenheit">Fahrenheit</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string-array name="states_list">
+        <item>Select</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="precipitation_value">None</string>
+    <string name="chanceOfRain">Chance Of Rain</string>
+    <string name="windSpeed">Wind Speed</string>
+    <string name="dewPoint">Dew Point</string>
+    <string name="humidity">Humidity</string>
+    <string name="visibility">Visibility</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string name="Fragment1">NEXT 24 HOURS</string>
+    <string name="Fragment2">NEXT 7 DAYS</string>
+    <string name="detailsActivity">DetailsActivity</string>
+    <string name="resultActivity">ResultActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="facebook_app_id">867570133362370</string>
+    <string name="aeris_client_id">w4FWSmVe1hK6MzTxfoBmt</string>
+    <string name="aeris_client_secret">EQ5S9IQlSBQlZS55PNp9l5yeKwDkM6Sk0X3CNE9h</string>
+    <string name="title_activity_about">WeatherApp</string>
+    <string name="studentName">Supriya Anand</string>
+    <string name="name">Name: </string>
+    <string name="studentId">xxxxxxxxxx</string>
+    <string name="studentIdText">Student Id: </string>
+    <string name="sunRise">Sunrise</string>
+    <string name="sunSet">Sunset</string>
+</resources>

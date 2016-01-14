@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://localhost/supriyaanand.github.io/random.html -->
+<html ng-app="plunker" class="ng-scope" hola_ext_inject="disabled"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <script src="./random_files/angular.js"></script><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak{display:none;}ng\:form{display:block;}</style>
+    <script src="./random_files/ui-bootstrap-tpls-0.2.0.js"></script>
+    <script src="./random_files/example.js"></script>
+    <link href="./random_files/bootstrap-combined.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div ng-controller="AccordionDemoCtrl" class="ng-scope">
+    <accordion><div class="accordion" ng-transclude="">
+        <!-- ngRepeat: group in groups --><div class="accordion-group ng-scope" ng-repeat="group in groups" heading="Dynamic Group Header - 1" is-open="group.open">  <div class="accordion-heading"><a class="accordion-toggle ng-binding" ng-click="isOpen = !isOpen" accordion-transclude="heading">Dynamic Group Header - 1</a></div>  <div class="accordion-body collapse" collapse="!isOpen" style="height: 0px;">    <div class="accordion-inner" ng-transclude=""><span class="ng-scope ng-binding">
+            Dynamic Group Body - 1
+        </span></div>  </div></div><div class="accordion-group ng-scope" ng-repeat="group in groups" heading="Dynamic Group Header - 2" is-open="group.open">  <div class="accordion-heading"><a class="accordion-toggle ng-binding" ng-click="isOpen = !isOpen" accordion-transclude="heading">Dynamic Group Header - 2</a></div>  <div class="accordion-body collapse" collapse="!isOpen" style="height: 0px;">    <div class="accordion-inner" ng-transclude=""><span class="ng-scope ng-binding">
+            Dynamic Group Body - 2
+        </span></div>  </div></div>
+    </div></accordion>
+    <button class="btn" ng-click="groups[0].open = !groups[0].open">Toggle first open</button>
+    <button class="btn" ng-click="groups[1].open = !groups[1].open">Toggle second open</button>
+</div>
+
+</body></html>
